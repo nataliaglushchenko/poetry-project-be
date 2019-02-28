@@ -1,0 +1,14 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Love",
+            "slug": "love"
+        }, 
+        {
+            "id": 2,
+            "name": "Friendship",
+            "slug": "friendship"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "poems": [{
+        "id": 1,
+        "title": "She Walks in Beauty",
+        "authorId": 1,
+        "categoryId": 1,
+        "content":"She walks in beauty, like the night\nOf cloudless climes and starry skies;\nAnd all that’s best of dark and bright\nMeet in her aspect and her eyes;\nThus mellowed to that tender light\nWhich heaven to gaudy day denies.\n\nOne shade the more, one ray the less,\nHad half impaired the nameless grace\nWhich waves in every raven tress,\nOr softly lightens o’er her face;\nWhere thoughts serenely sweet express,\nHow pure, how dear their dwelling-place.\n\nAnd on that cheek, and o’er that brow,\nSo soft, so calm, yet eloquent,\nThe smiles that win, the tints that glow,\nBut tell of days in goodness spent,\nA mind at peace with all below\nA heart whose love is innocent!"
+    }, {
+        "id": 2,
+        "title": "We Two, How Long We Were Fool’d",
+        "authorId": 2,
+        "categoryId": 1,
+        "content": "We two, how long we were fool’d,\nNow transmuted, we swiftly escape as Nature escapes,\nWe are Nature, long have we been absent, but now we return,\nWe become plants, trunks, foliage, roots, bark,\nWe are bedded in the ground, we are rocks,\nWe are oaks, we grow in the openings side by side,\nWe browse, we are two among the wild herds spontaneous as any,\nWe are two fishes swimming in the sea together,\nWe are what locust blossoms are, we drop scent around lanes mornings and evenings,\nWe are also the coarse smut of beasts, vegetables, minerals,\nWe are two predatory hawks, we soar above and look down,\nWe are two resplendent suns, we it is who balance ourselves orbic and stellar, we are as two comets,\nWe prowl fang’d and four-footed in the woods, we spring on prey,\nWe are two clouds forenoons and afternoons driving overhead,\nWe are seas mingling, we are two of those cheerful waves rolling over each other and interwetting each other,\nWe are what the atmosphere is, transparent, receptive, pervious, impervious,\nWe are snow, rain, cold, darkness, we are each product and influence of the globe,\nWe have circled and circled till we have arrived home again, we two,\nWe have voided all but freedom and all but our own joy.\n"
+    }, {
+        "id": 3,
+        "title": "I should not dare to leave my friend",
+        "authorId": 3,
+        "categoryId": 2,
+        "content": "I should not dare to leave my friend,\nBecause—because if he should die\nWhile I was gone—and I—too late—\nShould reach the Heart that wanted me;\n\nIf I should disappoint the eyes\nThat hunted—hunted so—to see—\nAnd could not bear to shut until\nThey noticed me—they noticed me;\n\nIf I should stab the patient faith\nSo sure I'd come—so sure I'd come—\nIt listening—listening—went to sleep—\nTelling my tardy name,—\n\nMy Heart would wish it broke before—\nSince breaking then—since breaking then—\nWere useless as next morning's sun—\nWhere midnight frosts—had lain!"
+    }
+    ]
+}

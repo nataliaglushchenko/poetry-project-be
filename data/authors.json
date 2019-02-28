@@ -1,0 +1,12 @@
+{
+    "authors": [{
+        "id": 1,
+        "name": "Lord Byron"
+    }, {
+        "id": 2,
+        "name": "Walt Whitman"
+    }, {
+        "id": 3,
+        "name": "Emily Dickinson"
+    }]
+}
