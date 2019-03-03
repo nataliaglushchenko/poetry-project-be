@@ -165,10 +165,27 @@ app.get('/authors/:id', (req, res) => {
 
 app.post('/new-poem', (req, res) => {
     const { authorId, title, categoryId, content } = req.body;
-    const id = poems.length + 1;
-    const newPoem = { id, title, content, authorId, categoryId };
-    poems.push(newPoem);
-    res.json(newPoem);
+    const isPoemAlreadyExist = poems.find(p => p.title === title && p.authorId === authorId ) !== undefined;
+
+    if(!isPoemAlreadyExist){
+        const id = poems.length + 1;
+        const newPoem = { id, title, content, authorId, categoryId };
+        poems.push(newPoem);
+
+        const author = authors.find(a => a.id === authorId);
+        const category = categories.find(c => c.id === categoryId);
+        const poem = {
+            id: id,
+            title: title,
+            author: author.name,
+            category: category.name,
+            content: content
+        };
+        res.json(poem);
+    }
+    else {
+        res.status(500).json({ message: 'Poem already exist!' });
+    }
 });
 
 app.post('/new-author', (req, res) => {
